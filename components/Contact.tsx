@@ -33,7 +33,7 @@ export const Contact: React.FC = () => {
                      href="mailto:orbilexexample@gmail.com" 
                      className="text-3xl md:text-5xl font-bold text-slate-900 hover:text-orb-600 transition-colors break-all"
                    >
-                     orbilex@gmail.com
+                     orbilexexample@gmail.com
                    </a>
                 </div>
                 <div className="w-full h-px bg-slate-200"></div>
