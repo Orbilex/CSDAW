@@ -30,7 +30,7 @@ export const Contact: React.FC = () => {
                 <div>
                    <p className="text-sm text-slate-500 uppercase tracking-widest mb-2">Email Us Directly</p>
                    <a 
-                     href="mailto:orbilex@gmail.com" 
+                     href="mailto:orbilexexample@gmail.com" 
                      className="text-3xl md:text-5xl font-bold text-slate-900 hover:text-orb-600 transition-colors break-all"
                    >
                      orbilex@gmail.com
