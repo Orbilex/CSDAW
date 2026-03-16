@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Rocket } from 'lucide-react';
 
+import creatorImage from '/michaela.png';
 export const AboutCreator: React.FC = () => {
   return (
     <section id="creator" className="py-24 bg-slate-50 border-t border-slate-200 overflow-hidden">
@@ -23,7 +24,7 @@ export const AboutCreator: React.FC = () => {
             <div className="relative aspect-[3/4] rounded-[2.5rem] p-3 bg-white shadow-2xl border border-slate-100 transform md:-rotate-2 hover:rotate-0 transition-transform duration-500 ease-out">
               <div className="w-full h-full rounded-[2rem] overflow-hidden relative bg-slate-100">
                 <img 
-                  src="/michaela.png" 
+                  src={creatorImage}
                   alt="Michael A." 
                   className="absolute inset-0 w-full h-full object-cover object-center"
                 />
