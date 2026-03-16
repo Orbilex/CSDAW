@@ -6,6 +6,7 @@ import { InteractiveDemo } from './components/InteractiveDemo';
 import { CatalogApp } from './components/CatalogApp';
 import { WhyUs } from './components/WhyUs';
 import { Process } from './components/Process';
+import { AboutCreator } from './components/AboutCreator';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <InteractiveDemo onLaunch={() => setShowCatalog(true)} />
         <WhyUs />
         <Process />
+        <AboutCreator />
         <Contact />
       </main>
       <Footer />
@@ -40,7 +42,7 @@ const App: React.FC = () => {
       {/* Sample Site Note Bar */}
       <div className="bg-slate-900 py-3 px-4 border-t border-slate-800">
         <p className="text-center text-slate-400 text-[10px] sm:text-xs font-medium tracking-wider uppercase">
-          Note: This is one of my sample sites created to showcase my current skill set and workflow. - Michael
+          Note: This is a sample site created to showcase my current skill set and workflow. - Michael
         </p>
       </div>
     </div>
