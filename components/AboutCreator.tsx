@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Rocket } from 'lucide-react';
 
-import creatorImage from '/michaela.png';
+import creatorImage from 'michaela.png';
 export const AboutCreator: React.FC = () => {
   return (
     <section id="creator" className="py-24 bg-slate-50 border-t border-slate-200 overflow-hidden">
